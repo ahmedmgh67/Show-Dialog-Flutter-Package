@@ -1,19 +1,19 @@
 # Show Dialog Package
+##Importing:
+~~~
+import 'package:show_dialog/show_dialog.dart' as dialog;
+~~~
 
 ## About Dialog
 #### Launches About Dialog with title and content with one line of code
 ###### Example:
 ~~~~
-showAboutDialog(context, title, content);
+dialog.showAboutDialog(context, '', '');
 ~~~~
 
-## Getting Started
-
-This project is a starting point for a Dart
-[package](https://flutter.io/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## Loading Dialog
+#### Launches Loading Dialog with one line of code
+###### Example:
+~~~~
+dialog.showLoadingDialog(context, 2);
+~~~~

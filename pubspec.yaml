@@ -1,8 +1,8 @@
 name: show_dialog
-description: A Package for Launch Dialogs As Easy As Poosibl
-version: 1.0.1
+description: A Package for Launch Dialogs As Easy As Poosible Like About Dialog, Loading Dialog and Many More
+version: 1.0.2
 author: Ahmed Gamal at Confidence Software <ahmedmgh67@gmail.com>
-homepage: https://facebook.com/confidda
+homepage: https://github.com/ahmedmgh67/Show-Dialog-Flutter-Package
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
