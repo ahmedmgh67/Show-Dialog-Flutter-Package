@@ -3,7 +3,7 @@ library dialog;
 import 'package:flutter/material.dart';
 import 'dart:async';
 
-void showAboutDialog(BuildContext context, String title, String content) {
+void showaboutDialog(BuildContext context, String title, String content) {
   // flutter defined function
   showDialog(
     context: context,
@@ -29,7 +29,7 @@ void showAboutDialog(BuildContext context, String title, String content) {
   );
 }
 
-void showLoadingDialog(BuildContext context, int seconds) {
+void loadingDialog(BuildContext context, int seconds) {
   // flutter defined function
   var ms = Duration(seconds:seconds);
   Timer(ms, () => Navigator.of(context).pop());

@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget{
             child: RaisedButton(
               child: Text("About Dialog"),
               onPressed: (){
-                dialog.showAboutDialog(context, "title", "content");
+                dialog.aboutDialog(context, "title", "content");
               }
             ),
           ),
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget{
             child: RaisedButton(
               child: Text("Loading Dialog"),
               onPressed: (){
-                dialog.showLoadingDialog(context, 3);
+                dialog.loadingDialog(context, 3);
               }
             ),
           ),
